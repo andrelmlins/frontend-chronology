@@ -22,5 +22,29 @@
     "website": "https://backbonejs.org/",
     "imageUrl": "https://backbonejs.org/docs/images/backbone.png",
     "github": "https://github.com/jashkenas/backbone"
+  },
+  {
+    "name": "Ember",
+    "description": "",
+    "year": 2011,
+    "website": "https://emberjs.com/",
+    "imageUrl": "https://emberjs.com/images/tomster-sm-45d6007ea34621fb603f29bd6a77798a.png",
+    "github": "https://github.com/emberjs"
+  },
+  {
+    "name": "Angularjs",
+    "description": "",
+    "year": 2010,
+    "website": "https://angularjs.org/",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/1280px-AngularJS_logo.svg.png",
+    "github": "https://github.com/angular/angular.js/"
+  },
+  {
+    "name": "Angular",
+    "description": "",
+    "year": 2016,
+    "website": "https://angular.io/",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png",
+    "github": "https://github.com/angular/angular"
   }
 ]
