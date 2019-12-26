@@ -20,6 +20,13 @@ fetch("./list.json")
             </div>
             <div class="content-body">
               <h3>${item.year} - <strong>${item.name}</strong></h3>
+              <p>${item.description}</p>
+              <a class="link" href="${item.website}" target="_blank">
+                <i class="fa fa-link"></i>
+              </a>
+              <a class="link" href="${item.github}" target="_blank">
+                <i class="fa fa-github"></i>
+              </a>
             </div>
         </div>
       `;

@@ -4,12 +4,12 @@
 
 body {
   background-color: #c0ab07;
-  font-family: Helvetica, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h3 {
   margin: 0.5em 0;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .title {
@@ -170,4 +170,24 @@ h3 {
 .logo {
   width: 100%;
   height: auto;
+}
+
+.link {
+  background-color: #000;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  text-decoration: none;
+  transition: 0.2s all;
+}
+
+.link:hover {
+  opacity: 0.8;
+}
+
+.fa {
+  color: #fff;
 }

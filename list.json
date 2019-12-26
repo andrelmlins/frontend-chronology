@@ -121,7 +121,7 @@
   },
   {
     "name": "Jquery",
-    "description": "",
+    "description": "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.",
     "year": 2006,
     "website": "https://jquery.com/",
     "imageUrl": "https://logodownload.org/wp-content/uploads/2017/10/jquery-logo.png",
@@ -169,7 +169,7 @@
   },
   {
     "name": "Dojo",
-    "description": "",
+    "description": "A JavaScript toolkit that saves you time and scales with your development process. Provides everything you need to build a Web app. Language utilities, UI components, and more, all in one place, designed to work together perfectly.",
     "year": 2005,
     "website": "https://dojotoolkit.org/",
     "imageUrl": "https://dojotoolkit.org/documentation/tutorials/1.6/gfx/images/gfxlogo.png",
