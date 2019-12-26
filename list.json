@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Knockout",
+    "description": "",
+    "year": 2010,
+    "website": "https://knockoutjs.com/",
+    "imageUrl": "https://cdn.worldvectorlogo.com/logos/knockout.svg",
+    "github": "https://github.com/knockout/knockout"
+  },
+  {
+    "name": "Vue",
+    "description": "",
+    "year": 2014,
+    "website": "https://vuejs.org/",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png",
+    "github": "https://github.com/vuejs/vue"
+  },
+  {
+    "name": "Backbone",
+    "description": "",
+    "year": 2010,
+    "website": "https://backbonejs.org/",
+    "imageUrl": "https://backbonejs.org/docs/images/backbone.png",
+    "github": "https://github.com/jashkenas/backbone"
+  }
+]
