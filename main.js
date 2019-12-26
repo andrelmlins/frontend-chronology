@@ -2,7 +2,9 @@ fetch("./list.json")
   .then(resp => resp.json())
   .then(list => {
     const timeline = document.getElementById("timeline");
-    const listOrder = list.sort((a, b) => a.year - b.year);
+    const listOrder = list.sort(
+      (a, b) => a.year - b.year || a.name.localeCompare(b.name)
+    );
 
     listOrder.map((item, index) => {
       const side = index % 2 === 0 ? "left" : "right";
