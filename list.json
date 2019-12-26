@@ -46,5 +46,45 @@
     "website": "https://angular.io/",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png",
     "github": "https://github.com/angular/angular"
+  },
+  {
+    "name": "Meteor",
+    "description": "",
+    "year": 2012,
+    "website": "https://www.meteor.com/",
+    "imageUrl": "https://qph.fs.quoracdn.net/main-qimg-8be9b52bd0b46ede471296514d1703c0.webp",
+    "github": "https://github.com/meteor/meteor"
+  },
+  {
+    "name": "React",
+    "description": "",
+    "year": 2013,
+    "website": "https://reactjs.org/",
+    "imageUrl": "https://victorvhpg.github.io/minicurso-react.js/slides/img/logo.png",
+    "github": "https://github.com/facebook/react"
+  },
+  {
+    "name": "Polymer",
+    "description": "",
+    "year": 2015,
+    "website": "https://www.polymer-project.org/",
+    "imageUrl": "https://victorvhpg.github.io/minicurso-react.js/slides/img/logo.png",
+    "github": "https://github.com/Polymer/polymer"
+  },
+  {
+    "name": "Svelte",
+    "description": "",
+    "year": 2016,
+    "website": "https://svelte.dev/",
+    "imageUrl": "https://miro.medium.com/max/700/1*m0UdF7LWONe3lXtfbfiS5g.png",
+    "github": "https://github.com/sveltejs/svelte"
+  },
+  {
+    "name": "Preact",
+    "description": "",
+    "year": 2015,
+    "website": "https://preactjs.com/",
+    "imageUrl": "https://cdn-images.threadless.com/threadless-media/artist_shops/shops/preact/profile/logo-1488769722-11aba9931e20be5d460f4467dd2398be.png?v=3&d=eyJvbmx5X21ldGEiOiBmYWxzZSwgImZvcmNlIjogZmFsc2UsICJvcHMiOiBbWyJyZXNpemUiLCBbNjAwLCAyNTBdLCB7fV1dfQ==",
+    "github": "https://github.com/preactjs/preact"
   }
 ]
