@@ -37,7 +37,7 @@
     "year": 2010,
     "website": "https://angularjs.org/",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/1280px-AngularJS_logo.svg.png",
-    "github": "https://github.com/angular/angular.js/"
+    "github": "https://github.com/angular/angular.js"
   },
   {
     "name": "Angular",
@@ -86,5 +86,93 @@
     "website": "https://preactjs.com/",
     "imageUrl": "https://cdn-images.threadless.com/threadless-media/artist_shops/shops/preact/profile/logo-1488769722-11aba9931e20be5d460f4467dd2398be.png?v=3&d=eyJvbmx5X21ldGEiOiBmYWxzZSwgImZvcmNlIjogZmFsc2UsICJvcHMiOiBbWyJyZXNpemUiLCBbNjAwLCAyNTBdLCB7fV1dfQ==",
     "github": "https://github.com/preactjs/preact"
+  },
+  {
+    "name": "Riot.js",
+    "description": "",
+    "year": 2014,
+    "website": "https://riot.js.org/",
+    "imageUrl": "https://riot.js.org/img/logo/riot-logo.svg",
+    "github": "https://github.com/riot/riot"
+  },
+  {
+    "name": "Can.js",
+    "description": "",
+    "year": 2011,
+    "website": "https://canjs.com/",
+    "imageUrl": "https://bitovi.github.io/academy/static/img/canjs.png",
+    "github": "https://github.com/canjs/canjs"
+  },
+  {
+    "name": "Aurelia",
+    "description": "",
+    "year": 2016,
+    "website": "https://aurelia.io/",
+    "imageUrl": "https://miro.medium.com/max/1146/1*aSDN3jwCjbFgpZoJ38P90g.png",
+    "github": "https://github.com/aurelia/framework"
+  },
+  {
+    "name": "Mithril",
+    "description": "",
+    "year": 2013,
+    "website": "https://mithril.js.org/",
+    "imageUrl": "https://bestofjs.org/logos/mithril.svg",
+    "github": "https://github.com/MithrilJS/mithril.js"
+  },
+  {
+    "name": "Jquery",
+    "description": "",
+    "year": 2006,
+    "website": "https://jquery.com/",
+    "imageUrl": "https://logodownload.org/wp-content/uploads/2017/10/jquery-logo.png",
+    "github": "https://github.com/jquery/jquery"
+  },
+  {
+    "name": "Bacon.js",
+    "description": "",
+    "year": 2012,
+    "website": "https://baconjs.github.io/",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTPKc7afe-ptR1BTdcNYG7sGRzOD5nao-ozpbGjpvYdaUNfcmHW",
+    "github": "https://github.com/baconjs/bacon.js"
+  },
+  {
+    "name": "Donejs",
+    "description": "",
+    "year": 2014,
+    "website": "https://donejs.com/",
+    "imageUrl": "https://www.bitovi.com/hubfs/Imported_Blog_Media/donejs-logo-ie.png",
+    "github": "https://github.com/donejs/donejs"
+  },
+  {
+    "name": "Elm",
+    "description": "",
+    "year": 2012,
+    "website": "https://elm-lang.org/",
+    "imageUrl": "https://miro.medium.com/max/256/1*oVJSlb6bJfNCXYacQmcvew.png",
+    "github": "https://github.com/elm/compiler"
+  },
+  {
+    "name": "Enyo",
+    "description": "",
+    "year": 2011,
+    "website": "https://enyojs.com/",
+    "imageUrl": "http://i.imgur.com/70naxce.png",
+    "github": "https://github.com/enyojs/enyo"
+  },
+  {
+    "name": "Stencil",
+    "description": "",
+    "year": 2017,
+    "website": "https://stenciljs.com/",
+    "imageUrl": "https://miro.medium.com/max/800/1*f6GA9hMEXK5hT3ddZ9SI_g.png",
+    "github": "https://github.com/ionic-team/stencil"
+  },
+  {
+    "name": "Dojo",
+    "description": "",
+    "year": 2005,
+    "website": "https://dojotoolkit.org/",
+    "imageUrl": "https://dojotoolkit.org/documentation/tutorials/1.6/gfx/images/gfxlogo.png",
+    "github": "https://github.com/dojo/framework"
   }
 ]
