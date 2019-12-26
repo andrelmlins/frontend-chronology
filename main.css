@@ -38,9 +38,9 @@ h3 {
   left: 50%;
   margin-left: -3px;
   border-radius: 5px;
+  z-index: -1;
 }
 
-/* Container around content */
 .container {
   padding: 10px 40px;
   position: relative;
@@ -48,7 +48,6 @@ h3 {
   width: 50%;
 }
 
-/* The circles on the timeline */
 .container::after {
   content: "";
   position: absolute;
@@ -62,45 +61,36 @@ h3 {
   z-index: 1;
 }
 
-/* Place the container to the left */
 .left {
   left: 0;
 }
 
-/* Place the container to the right */
 .right {
   left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
-.left::before {
-  content: " ";
+.content:before {
   height: 0;
+  content: " ";
   position: absolute;
-  top: 22px;
+  top: 10px;
   width: 0;
   z-index: 1;
-  right: 30px;
   border: medium solid white;
+}
+
+.content-left::before {
+  right: -10px;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent white;
 }
 
-/* Add arrows to the right container (pointing left) */
-.right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
+.content-right::before {
+  left: -10px;
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
 }
 
-/* Fix the circle for containers on the right side */
 .right::after {
   left: -16px;
 }
@@ -168,6 +158,18 @@ h3 {
     0 2px 4px -1px rgba(0, 0, 0, 0.3);
 }
 
+.content-logo-left {
+  order: 1;
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+.content-logo-right {
+  order: 0;
+  margin-right: 15px;
+  margin-left: 0px;
+}
+
 .logo {
   width: auto;
   max-width: 100%;
@@ -208,8 +210,8 @@ h3 {
   }
 
   /* Make sure that all arrows are pointing leftwards */
-  .container::before {
-    left: 60px;
+  .content::before {
+    left: -10px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
@@ -232,7 +234,12 @@ h3 {
 
   .content-logo {
     margin-right: 0px;
+    margin-left: 0px;
     margin-bottom: 15px;
     width: 100%;
+  }
+
+  .content-logo-left {
+    order: 0;
   }
 }
