@@ -41,7 +41,7 @@ fetch("./list.json")
 window.onload = () => {
   window.sr = ScrollReveal();
 
-  if (window.innerWidth < 768) {
+  if (window.innerWidth < 500) {
     sr.reveal(".js--fadeInleft", {
       origin: "right",
       distance: "100px",
