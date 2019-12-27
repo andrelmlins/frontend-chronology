@@ -95,28 +95,32 @@ window.onload = () => {
           origin: "right",
           distance: "100px",
           easing: "ease-in-out",
-          duration: 800
+          duration: 800,
+          container: ".timeline"
         });
 
         sr.reveal(".js--fadeInright", {
           origin: "right",
           distance: "100px",
           easing: "ease-in-out",
-          duration: 800
+          duration: 800,
+          container: ".timeline"
         });
       } else {
         sr.reveal(".js--fadeInleft", {
           origin: "left",
           distance: "200px",
           easing: "ease-in-out",
-          duration: 800
+          duration: 800,
+          container: ".timeline"
         });
 
         sr.reveal(".js--fadeInright", {
           origin: "right",
           distance: "300px",
           easing: "ease-in-out",
-          duration: 800
+          duration: 800,
+          container: ".timeline"
         });
       }
     });
