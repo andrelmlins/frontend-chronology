@@ -5,6 +5,7 @@
 body {
   background-color: #01579b;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
 }
 
 h3 {

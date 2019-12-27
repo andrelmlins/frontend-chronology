@@ -1,18 +1,19 @@
-fetch("./list.json")
-  .then(resp => resp.json())
-  .then(list => {
-    const timeline = document.getElementById("timeline");
-    const listOrder = list.sort(
-      (a, b) => a.year - b.year || a.name.localeCompare(b.name)
-    );
+window.onload = () => {
+  fetch("./list.json")
+    .then(resp => resp.json())
+    .then(list => {
+      const timeline = document.getElementById("timeline");
+      const listOrder = list.sort(
+        (a, b) => a.year - b.year || a.name.localeCompare(b.name)
+      );
 
-    listOrder.map((item, index) => {
-      const side = index % 2 === 0 ? "left" : "right";
+      listOrder.map((item, index) => {
+        const side = index % 2 === 0 ? "left" : "right";
 
-      const container = document.createElement("div");
-      container.setAttribute("class", `container ${side}`);
+        const container = document.createElement("div");
+        container.setAttribute("class", `container ${side}`);
 
-      container.innerHTML = `
+        container.innerHTML = `
         <div class="content content-${side} js--fadeIn${side}" role="section">
           <div class="content-logo content-logo-${side}">
             <img
@@ -34,40 +35,39 @@ fetch("./list.json")
         </div>
       `;
 
-      timeline.appendChild(container);
-    });
-  });
+        timeline.appendChild(container);
+      });
 
-window.onload = () => {
-  window.sr = ScrollReveal();
+      window.sr = ScrollReveal();
 
-  if (window.innerWidth < 500) {
-    sr.reveal(".js--fadeInleft", {
-      origin: "right",
-      distance: "100px",
-      easing: "ease-in-out",
-      duration: 800
-    });
+      if (window.innerWidth < 500) {
+        sr.reveal(".js--fadeInleft", {
+          origin: "right",
+          distance: "100px",
+          easing: "ease-in-out",
+          duration: 800
+        });
 
-    sr.reveal(".js--fadeInright", {
-      origin: "right",
-      distance: "100px",
-      easing: "ease-in-out",
-      duration: 800
-    });
-  } else {
-    sr.reveal(".js--fadeInleft", {
-      origin: "left",
-      distance: "200px",
-      easing: "ease-in-out",
-      duration: 800
-    });
+        sr.reveal(".js--fadeInright", {
+          origin: "right",
+          distance: "100px",
+          easing: "ease-in-out",
+          duration: 800
+        });
+      } else {
+        sr.reveal(".js--fadeInleft", {
+          origin: "left",
+          distance: "200px",
+          easing: "ease-in-out",
+          duration: 800
+        });
 
-    sr.reveal(".js--fadeInright", {
-      origin: "right",
-      distance: "300px",
-      easing: "ease-in-out",
-      duration: 800
+        sr.reveal(".js--fadeInright", {
+          origin: "right",
+          distance: "300px",
+          easing: "ease-in-out",
+          duration: 800
+        });
+      }
     });
-  }
 };
