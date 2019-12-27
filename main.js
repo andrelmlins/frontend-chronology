@@ -9,8 +9,8 @@ const showModal = name => {
       const nameGithub = project.github.replace("https://github.com/", "");
 
       document.body.innerHTML += `
-        <div id="modalProject" class="modal">
-          <div class="modal-content">
+        <div id="modalProject" class="modal" role="alertdialog">
+          <div class="modal-content" role="document">
             <span class="close" onclick="closeModal()">&times;</span>
             <h2 style="margin: 0">${project.name}</h2>
             <div style="margin-top: 20px">
