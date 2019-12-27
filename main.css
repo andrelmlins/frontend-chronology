@@ -204,6 +204,59 @@ h3 {
   color: #fff;
 }
 
+/** Modal */
+
+.modal {
+  position: fixed;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.5s all;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.modal-logo {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  min-width: 80px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin-right: 15px;
+  margin-bottom: 0px;
+  border: 1px solid #aaa;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  transition: 0.4s all;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 600px) {
   /* Place the timelime to the left */
   .timeline::after {
@@ -250,54 +303,8 @@ h3 {
   .content-logo-left {
     order: 0;
   }
-}
 
-.modal {
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
-  transition: 0.5s all;
-}
-
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 50%;
-}
-
-.modal-logo {
-  display: flex;
-  width: 80px;
-  height: 80px;
-  min-width: 80px;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
-  margin-right: 15px;
-  margin-bottom: 0px;
-  border: 1px solid #aaa;
-}
-
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  transition: 0.4s all;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
+  .modal-content {
+    width: 90%;
+  }
 }
