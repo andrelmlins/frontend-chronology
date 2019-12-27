@@ -174,5 +174,13 @@
     "website": "https://dojotoolkit.org/",
     "imageUrl": "https://dojotoolkit.org/documentation/tutorials/1.6/gfx/images/gfxlogo.png",
     "github": "https://github.com/dojo/framework"
+  },
+  {
+    "name": "InfernoJs",
+    "description": "Inferno is an insanely fast, React-like library for building high-performance user interfaces on both the client and server.",
+    "year": 2016,
+    "website": "https://infernojs.org/",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEWaC1JmGyTDeAc4FiTpCfvSxH8J6SDv-XexhxKXhV9ZVsEd36",
+    "github": "https://github.com/infernojs/inferno"
   }
 ]
