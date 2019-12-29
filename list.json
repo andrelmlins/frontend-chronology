@@ -5,7 +5,8 @@
     "year": 2010,
     "website": "https://knockoutjs.com/",
     "imageUrl": "https://cdn.worldvectorlogo.com/logos/knockout.svg",
-    "github": "https://github.com/knockout/knockout"
+    "github": "https://github.com/knockout/knockout",
+    "npm": "https://www.npmjs.com/package/knockout"
   },
   {
     "name": "Vue",
@@ -13,7 +14,8 @@
     "year": 2014,
     "website": "https://vuejs.org/",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png",
-    "github": "https://github.com/vuejs/vue"
+    "github": "https://github.com/vuejs/vue",
+    "npm": "https://www.npmjs.com/package/vue"
   },
   {
     "name": "Backbone",
@@ -21,7 +23,8 @@
     "year": 2010,
     "website": "https://backbonejs.org/",
     "imageUrl": "https://backbonejs.org/docs/images/backbone.png",
-    "github": "https://github.com/jashkenas/backbone"
+    "github": "https://github.com/jashkenas/backbone",
+    "npm": "https://www.npmjs.com/package/backbone"
   },
   {
     "name": "Ember",
@@ -29,7 +32,8 @@
     "year": 2011,
     "website": "https://emberjs.com/",
     "imageUrl": "https://emberjs.com/images/tomster-sm-45d6007ea34621fb603f29bd6a77798a.png",
-    "github": "https://github.com/emberjs"
+    "github": "https://github.com/emberjs",
+    "npm": "https://www.npmjs.com/package/ember"
   },
   {
     "name": "Angularjs",
@@ -37,7 +41,8 @@
     "year": 2010,
     "website": "https://angularjs.org/",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/1280px-AngularJS_logo.svg.png",
-    "github": "https://github.com/angular/angular.js"
+    "github": "https://github.com/angular/angular.js",
+    "npm": "https://www.npmjs.com/package/angular"
   },
   {
     "name": "Angular",
@@ -45,7 +50,8 @@
     "year": 2016,
     "website": "https://angular.io/",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png",
-    "github": "https://github.com/angular/angular"
+    "github": "https://github.com/angular/angular",
+    "npm": "https://www.npmjs.com/package/@angular/core"
   },
   {
     "name": "Meteor",
@@ -53,7 +59,8 @@
     "year": 2012,
     "website": "https://www.meteor.com/",
     "imageUrl": "https://qph.fs.quoracdn.net/main-qimg-8be9b52bd0b46ede471296514d1703c0.webp",
-    "github": "https://github.com/meteor/meteor"
+    "github": "https://github.com/meteor/meteor",
+    "npme": "https://www.npmjs.com/package/meteor"
   },
   {
     "name": "React",
@@ -61,7 +68,8 @@
     "year": 2013,
     "website": "https://reactjs.org/",
     "imageUrl": "https://victorvhpg.github.io/minicurso-react.js/slides/img/logo.png",
-    "github": "https://github.com/facebook/react"
+    "github": "https://github.com/facebook/react",
+    "npm": "https://www.npmjs.com/package/react"
   },
   {
     "name": "Polymer",
@@ -69,7 +77,8 @@
     "year": 2015,
     "website": "https://www.polymer-project.org/",
     "imageUrl": "https://avatars3.githubusercontent.com/u/2159051?v=4",
-    "github": "https://github.com/Polymer/polymer"
+    "github": "https://github.com/Polymer/polymer",
+    "npm": "https://www.npmjs.com/package/@polymer/polymer"
   },
   {
     "name": "Svelte",
@@ -77,7 +86,8 @@
     "year": 2016,
     "website": "https://svelte.dev/",
     "imageUrl": "https://miro.medium.com/max/700/1*m0UdF7LWONe3lXtfbfiS5g.png",
-    "github": "https://github.com/sveltejs/svelte"
+    "github": "https://github.com/sveltejs/svelte",
+    "npm": "https://www.npmjs.com/package/svelte"
   },
   {
     "name": "Preact",
@@ -85,7 +95,8 @@
     "year": 2015,
     "website": "https://preactjs.com/",
     "imageUrl": "https://cdn-images.threadless.com/threadless-media/artist_shops/shops/preact/profile/logo-1488769722-11aba9931e20be5d460f4467dd2398be.png?v=3&d=eyJvbmx5X21ldGEiOiBmYWxzZSwgImZvcmNlIjogZmFsc2UsICJvcHMiOiBbWyJyZXNpemUiLCBbNjAwLCAyNTBdLCB7fV1dfQ==",
-    "github": "https://github.com/preactjs/preact"
+    "github": "https://github.com/preactjs/preact",
+    "npm": "https://www.npmjs.com/package/preact"
   },
   {
     "name": "Riot.js",
@@ -93,7 +104,8 @@
     "year": 2014,
     "website": "https://riot.js.org/",
     "imageUrl": "https://riot.js.org/img/logo/riot-logo.svg",
-    "github": "https://github.com/riot/riot"
+    "github": "https://github.com/riot/riot",
+    "npm": "https://www.npmjs.com/package/riot"
   },
   {
     "name": "Can.js",
@@ -101,7 +113,8 @@
     "year": 2011,
     "website": "https://canjs.com/",
     "imageUrl": "https://bitovi.github.io/academy/static/img/canjs.png",
-    "github": "https://github.com/canjs/canjs"
+    "github": "https://github.com/canjs/canjs",
+    "npm": "https://www.npmjs.com/package/can"
   },
   {
     "name": "Aurelia",
@@ -109,7 +122,8 @@
     "year": 2016,
     "website": "https://aurelia.io/",
     "imageUrl": "https://miro.medium.com/max/1146/1*aSDN3jwCjbFgpZoJ38P90g.png",
-    "github": "https://github.com/aurelia/framework"
+    "github": "https://github.com/aurelia/framework",
+    "npm": "https://www.npmjs.com/package/aurelia-framework"
   },
   {
     "name": "Mithril",
@@ -117,7 +131,8 @@
     "year": 2013,
     "website": "https://mithril.js.org/",
     "imageUrl": "https://bestofjs.org/logos/mithril.svg",
-    "github": "https://github.com/MithrilJS/mithril.js"
+    "github": "https://github.com/MithrilJS/mithril.js",
+    "npm": "https://www.npmjs.com/package/mithril"
   },
   {
     "name": "jQuery",
@@ -125,7 +140,8 @@
     "year": 2006,
     "website": "https://jquery.com/",
     "imageUrl": "https://logodownload.org/wp-content/uploads/2017/10/jquery-logo.png",
-    "github": "https://github.com/jquery/jquery"
+    "github": "https://github.com/jquery/jquery",
+    "npm": "https://www.npmjs.com/package/jquery"
   },
   {
     "name": "Bacon.js",
@@ -133,7 +149,8 @@
     "year": 2012,
     "website": "https://baconjs.github.io/",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTPKc7afe-ptR1BTdcNYG7sGRzOD5nao-ozpbGjpvYdaUNfcmHW",
-    "github": "https://github.com/baconjs/bacon.js"
+    "github": "https://github.com/baconjs/bacon.js",
+    "npm": "https://www.npmjs.com/package/baconjs"
   },
   {
     "name": "Donejs",
@@ -141,7 +158,8 @@
     "year": 2014,
     "website": "https://donejs.com/",
     "imageUrl": "https://www.bitovi.com/hubfs/Imported_Blog_Media/donejs-logo-ie.png",
-    "github": "https://github.com/donejs/donejs"
+    "github": "https://github.com/donejs/donejs",
+    "npm": "https://www.npmjs.com/package/donejs"
   },
   {
     "name": "Elm",
@@ -149,7 +167,8 @@
     "year": 2012,
     "website": "https://elm-lang.org/",
     "imageUrl": "https://miro.medium.com/max/256/1*oVJSlb6bJfNCXYacQmcvew.png",
-    "github": "https://github.com/elm/compiler"
+    "github": "https://github.com/elm/compiler",
+    "npm": ""
   },
   {
     "name": "Enyo",
@@ -157,7 +176,8 @@
     "year": 2011,
     "website": "https://enyojs.com/",
     "imageUrl": "http://i.imgur.com/70naxce.png",
-    "github": "https://github.com/enyojs/enyo"
+    "github": "https://github.com/enyojs/enyo",
+    "npm": "https://www.npmjs.com/package/enyo-dev"
   },
   {
     "name": "Stencil",
@@ -165,7 +185,8 @@
     "year": 2017,
     "website": "https://stenciljs.com/",
     "imageUrl": "https://miro.medium.com/max/800/1*f6GA9hMEXK5hT3ddZ9SI_g.png",
-    "github": "https://github.com/ionic-team/stencil"
+    "github": "https://github.com/ionic-team/stencil",
+    "npm": "https://www.npmjs.com/package/stencil"
   },
   {
     "name": "Dojo",
@@ -173,7 +194,8 @@
     "year": 2005,
     "website": "https://dojotoolkit.org/",
     "imageUrl": "https://dojotoolkit.org/documentation/tutorials/1.6/gfx/images/gfxlogo.png",
-    "github": "https://github.com/dojo/framework"
+    "github": "https://github.com/dojo/framework",
+    "npm": "https://www.npmjs.com/package/dojo"
   },
   {
     "name": "InfernoJs",
@@ -181,6 +203,7 @@
     "year": 2016,
     "website": "https://infernojs.org/",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEWaC1JmGyTDeAc4FiTpCfvSxH8J6SDv-XexhxKXhV9ZVsEd36",
-    "github": "https://github.com/infernojs/inferno"
+    "github": "https://github.com/infernojs/inferno",
+    "npm": "https://www.npmjs.com/package/inferno"
   }
 ]
