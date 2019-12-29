@@ -4,6 +4,8 @@ FrontEnd chronology of javascript frameworks and libraries.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andrelmlins/frontend-chronology/blob/master/LICENSE) &bull; [![Netlify Status](https://api.netlify.com/api/v1/badges/eab4369e-152f-4485-973f-2f84a4ace3e2/deploy-status)](https://app.netlify.com/sites/frontend-chronology/deploys) &bull; [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/andrelmlins/frontend-chronology.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/andrelmlins/frontend-chronology/context:javascript)
 
+[![Site Animation](https://miro.medium.com/max/1280/1*VOhykDlmD3Nh2kUTLISrAA.gif)](https://frontend-chronology.netlify.com/)
+
 ## Goal
 
 The purpose of this project is to show the chronology of FrontEnd
