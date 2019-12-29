@@ -180,7 +180,7 @@ h3 {
 .link {
   background-color: #000;
   border-radius: 100%;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 35px;
@@ -189,6 +189,7 @@ h3 {
   transition: 0.2s all;
   border: none;
   padding: 0;
+  margin-right: 10px;
 }
 
 .link:focus {
@@ -200,7 +201,7 @@ h3 {
   cursor: pointer;
 }
 
-.fa {
+.link svg {
   color: #fff;
 }
 

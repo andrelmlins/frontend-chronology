@@ -27,12 +27,17 @@ const showModal = name => {
             </div>
             <p style="margin:0">${project.description}</p>
           </div>
-          <a aria-label="Website" class="link" href="${project.website}" target="_blank">
-            <i class="fa fa-link"></i>
-          </a>
-          <a aria-label="Github" class="link" href="${project.github}" target="_blank">
-            <i class="fa fa-github"></i>
-          </a>
+          <div style="display: flex">
+            <a aria-label="Website" class="link" href="${project.website}" target="_blank">
+              <i class="fas fa-globe"></i>
+            </a>
+            <a aria-label="Github" class="link" href="${project.github}" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a aria-label="Github" class="link" href="${project.npm}" target="_blank">
+              <i class="fab fa-npm"></i>
+            </a>
+          </div>
         </div>
       `;
       document.getElementById("modalProject").style.display = "flex";
@@ -72,15 +77,20 @@ window.onload = () => {
           <div class="content-body">
             <h3>${item.year} - <strong>${item.name}</strong></h3>
             <p>${item.description}</p>
-            <button aria-label="More" class="link" onclick="showModal('${item.name}')">
-              <i class="fa fa-eye"></i>
-            </button>
-            <a aria-label="Website" class="link" href="${item.website}" target="_blank">
-              <i class="fa fa-link"></i>
-            </a>
-            <a aria-label="Github" class="link" href="${item.github}" target="_blank">
-              <i class="fa fa-github"></i>
-            </a>
+            <div style="display: flex">
+              <button aria-label="More" class="link" onclick="showModal('${item.name}')">
+                <i class="far fa-eye"></i>
+              </button>
+              <a aria-label="Website" class="link" href="${item.website}" target="_blank">
+                <i class="fas fa-globe"></i>
+              </a>
+              <a aria-label="Github" class="link" href="${item.github}" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a aria-label="Github" class="link" href="${item.npm}" target="_blank">
+                <i class="fab fa-npm"></i>
+              </a>
+            </div>
           </div>
         </div>
       `;
