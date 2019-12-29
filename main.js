@@ -3,45 +3,45 @@ let projects = [];
 const showModal = name => {
   const project = projects.find(item => item.name === name);
 
-  fetch(project.github.replace("github.com", "api.github.com/repos"))
-    .then(resp => resp.json())
-    .then(() => {
-      const nameGithub = project.github.replace("https://github.com/", "");
+  const packageName = project.npm.replace("https://www.npmjs.com/package/", "");
 
-      document.getElementById("modalProject").innerHTML += `
-        <div class="modal-content" role="document">
-          <span class="close" onclick="closeModal()">&times;</span>
-          <h2 style="margin: 0">${project.name}</h2>
-          <div style="margin-top: 20px">
-            <img alt="GitHub stars" src="https://img.shields.io/github/stars/${nameGithub}?style=social">
-            <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/${nameGithub}?style=social">
-            <img alt="GitHub forks" src="https://img.shields.io/github/forks/${nameGithub}?style=social">
-          </div>
-          <div style="display:flex; margin: 20px 0px">
-            <div class="modal-logo">
-              <img
-                class="logo"
-                alt="${project.name}"
-                src="${project.imageUrl}"
-              />
-            </div>
-            <p style="margin:0">${project.description}</p>
-          </div>
-          <div style="display: flex">
-            <a aria-label="Website" class="link" href="${project.website}" target="_blank">
-              <i class="fas fa-globe"></i>
-            </a>
-            <a aria-label="Github" class="link" href="${project.github}" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-            <a aria-label="Github" class="link" href="${project.npm}" target="_blank">
-              <i class="fab fa-npm"></i>
-            </a>
-          </div>
+  const nameGithub = project.github.replace("https://github.com/", "");
+
+  document.getElementById("modalProject").innerHTML += `
+    <div class="modal-content" role="document">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 style="margin: 0">${project.name}</h2>
+      <h4 style="margin: 0"><strong>Package name</strong>: ${packageName}</h4>
+      <div style="margin-top: 20px">
+        <img alt="GitHub stars" src="https://img.shields.io/github/stars/${nameGithub}?style=social">
+        <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/${nameGithub}?style=social">
+        <img alt="GitHub forks" src="https://img.shields.io/github/forks/${nameGithub}?style=social">
+      </div>
+      <div style="display:flex; margin: 20px 0px">
+        <div class="modal-logo">
+          <img
+            class="logo"
+            alt="${project.name}"
+            src="${project.imageUrl}"
+          />
         </div>
-      `;
-      document.getElementById("modalProject").style.display = "flex";
-    });
+        <p style="margin:0">${project.description}</p>
+      </div>
+      <div style="display: flex">
+        <a aria-label="Website" class="link" href="${project.website}" target="_blank">
+          <i class="fas fa-globe"></i>
+        </a>
+        <a aria-label="Github" class="link" href="${project.github}" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a aria-label="Github" class="link" href="${project.npm}" target="_blank">
+          <i class="fab fa-npm"></i>
+        </a>
+      </div>
+    </div>
+  `;
+
+  document.getElementById("modalProject").style.display = "flex";
 };
 
 const closeModal = () => {
@@ -100,7 +100,7 @@ window.onload = () => {
 
       window.sr = ScrollReveal();
 
-      if (window.innerWidth < 500) {
+      if (window.innerWidth < 800) {
         sr.reveal(".js--fadeInleft", {
           origin: "right",
           distance: "100px",

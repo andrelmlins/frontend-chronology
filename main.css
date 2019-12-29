@@ -13,6 +13,11 @@ h3 {
   font-weight: 400;
 }
 
+h4 {
+  margin: 0;
+  font-weight: 400;
+}
+
 .title {
   text-align: center;
   margin: 1.5em 0;
@@ -258,7 +263,7 @@ h3 {
   cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
@@ -282,7 +287,7 @@ h3 {
   /* Make sure all circles are at the same spot */
   .left::after,
   .right::after {
-    left: 15px;
+    left: 17px;
   }
 
   /* Make all right containers behave like the left ones */
