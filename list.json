@@ -205,5 +205,14 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEWaC1JmGyTDeAc4FiTpCfvSxH8J6SDv-XexhxKXhV9ZVsEd36",
     "github": "https://github.com/infernojs/inferno",
     "npm": "https://www.npmjs.com/package/inferno"
+  },
+  {
+    "name": "Imba",
+    "description": "Imba is a programming language for the web that compiles to performant and readable JavaScript. It has language level support for defining, extending, subclassing, instantiating and rendering dom nodes.",
+    "year": 2016,
+    "website": "https://www.imba.io/",
+    "imageUrl": "https://raw.githubusercontent.com/imba/brand/master/images/logo/png/logo-black.png",
+    "github": "https://github.com/imba/imba",
+    "npm": "https://www.npmjs.com/package/imba"
   }
 ]
