@@ -214,5 +214,14 @@
     "imageUrl": "https://raw.githubusercontent.com/imba/brand/master/images/logo/png/logo-black.png",
     "github": "https://github.com/imba/imba",
     "npm": "https://www.npmjs.com/package/imba"
+  },
+  {
+    "name": "Marko",
+    "description": "Marko is HTML re-imagined as a language for building dynamic and reactive user interfaces. Just about any valid HTML is valid Marko, but Marko extends the HTML language to allow building modern applications in a declarative way.",
+    "year": 2015,
+    "website": "https://markojs.com/",
+    "imageUrl": "https://markojs.com/logo-be720035.png",
+    "github": "https://github.com/marko-js/marko",
+    "npm": "https://www.npmjs.com/package/marko"
   }
 ]
