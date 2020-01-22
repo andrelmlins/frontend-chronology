@@ -223,5 +223,14 @@
     "imageUrl": "https://markojs.com/logo-be720035.png",
     "github": "https://github.com/marko-js/marko",
     "npm": "https://www.npmjs.com/package/marko"
+  },
+  {
+    "name": "Cycle.js",
+    "description": "A functional and reactive JavaScript framework for predictable code",
+    "year": 2014,
+    "website": "https://cycle.js.org/",
+    "imageUrl": "https://cycle.js.org/img/cyclejs_logo.svg",
+    "github": "https://github.com/cyclejs/cyclejs",
+    "npm": "https://www.npmjs.com/package/@cycle/run"
   }
 ]
