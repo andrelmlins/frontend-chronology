@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #01579b;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
