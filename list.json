@@ -232,5 +232,14 @@
     "imageUrl": "https://cycle.js.org/img/cyclejs_logo.svg",
     "github": "https://github.com/cyclejs/cyclejs",
     "npm": "https://www.npmjs.com/package/@cycle/run"
+  },
+  {
+    "name": "Seemple",
+    "description": "Seemple.js is a simple JavaScript framework to create single-page applications (SPAs). The simple and intuitive API is based on JavaScript classes and accessors which are accessible to all application developers of varying skills.",
+    "year": 2020,
+    "website": "https://seemple.js.org/",
+    "imageUrl": "https://seemple.js.org/logo/seemple-full-horizontal.svg",
+    "github": "https://github.com/finom/seemple",
+    "npm": "https://www.npmjs.com/package/seemple"
   }
 ]
