@@ -40,6 +40,19 @@ All data is inside the `list.json` file. Example:
 }
 ```
 
+## Philosophy
+
+1. Show the history of the frontend frameworks.
+2. Only the use of javascript.
+3. Show the evolution of the frontend.
+
+## Contribution guidelines
+
+If you want to contribute to **FrontEnd Chronology**, be sure to review the
+[contribution guidelines](CONTRIBUTING.md). This project adheres to
+[code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to
+uphold this code.
+
 ## License
 
 FrontEnd Chronology is open source software [licensed as MIT](https://github.com/andrelmlins/frontend-chronology/blob/master/LICENSE).
