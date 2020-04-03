@@ -31,7 +31,7 @@
     "description": "Ember.js is an open-source JavaScript web framework, based on the MVVM pattern. It allows developers to create scalable single-page web applications by incorporating common idioms and best practices into the framework.",
     "year": 2011,
     "website": "https://emberjs.com/",
-    "imageUrl": "https://emberjs.com/images/tomster-sm-45d6007ea34621fb603f29bd6a77798a.png",
+    "imageUrl": "https://emberjs.com/images/brand/ember_Tomster-Lockup.png",
     "github": "https://github.com/emberjs",
     "npm": "https://www.npmjs.com/package/ember"
   },
