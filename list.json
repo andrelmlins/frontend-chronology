@@ -241,5 +241,14 @@
     "imageUrl": "https://seemple.js.org/logo/seemple-full-horizontal.svg",
     "github": "https://github.com/finom/seemple",
     "npm": "https://www.npmjs.com/package/seemple"
+  },
+  {
+    "name": "Zepto.js",
+    "description": "Zepto is a minimalist JavaScript library for modern browsers with a largely jQuery-compatible API. If you use jQuery, you already know how to use Zepto.",
+    "year": 2010,
+    "website": "https://zeptojs.com/",
+    "imageUrl": "https://zeptojs.com/logo.png",
+    "github": "https://github.com/madrobby/zepto",
+    "npm": "https://www.npmjs.com/package/zepto"
   }
 ]
