@@ -211,7 +211,7 @@
     "description": "Imba is a programming language for the web that compiles to performant and readable JavaScript. It has language level support for defining, extending, subclassing, instantiating and rendering dom nodes.",
     "year": 2016,
     "website": "https://www.imba.io/",
-    "imageUrl": "https://raw.githubusercontent.com/imba/brand/master/images/logo/png/logo-black.png",
+    "imageUrl": "https://raw.githubusercontent.com/imba/branding-imba/master/imba-web-logo.png",
     "github": "https://github.com/imba/imba",
     "npm": "https://www.npmjs.com/package/imba"
   },
@@ -220,7 +220,7 @@
     "description": "Marko is HTML re-imagined as a language for building dynamic and reactive user interfaces. Just about any valid HTML is valid Marko, but Marko extends the HTML language to allow building modern applications in a declarative way.",
     "year": 2015,
     "website": "https://markojs.com/",
-    "imageUrl": "https://markojs.com/logo-be720035.png",
+    "imageUrl": "https://raw.githubusercontent.com/marko-js/branding/master/marko-logo-medium-cropped.png",
     "github": "https://github.com/marko-js/marko",
     "npm": "https://www.npmjs.com/package/marko"
   },
