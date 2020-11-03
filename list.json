@@ -259,5 +259,14 @@
     "imageUrl": "http://wx2.sinaimg.cn/mw690/0060lm7Tly1ftpm5b3ihfj3096097aaj.jpg",
     "github": "https://github.com/yisar/fre",
     "npm": "https://www.npmjs.com/package/fre"
+  },
+  {
+    "name": "Alpine",
+    "description": "A rugged, minimal framework for composing JavaScript behavior in your markup.",
+    "year": 2019,
+    "website": "https://github.com/alpinejs/alpine",
+    "imageUrl": "https://avatars3.githubusercontent.com/u/59030169?s=200&v=4",
+    "github": "https://github.com/alpinejs/alpine",
+    "npm": "https://www.npmjs.com/package/alpinejs"
   }
 ]
