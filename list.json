@@ -268,5 +268,14 @@
     "imageUrl": "https://avatars3.githubusercontent.com/u/59030169?s=200&v=4",
     "github": "https://github.com/alpinejs/alpine",
     "npm": "https://www.npmjs.com/package/alpinejs"
+  },
+  {
+    "name": "Rax",
+    "description": "The fastest way to build universal application.",
+    "year": 2019,
+    "website": "https://rax.js.org/",
+    "imageUrl": "https://img.alicdn.com/tfs/TB1H2Kcb1H2gK0jSZFEXXcqMpXa-70-72.png",
+    "github": "https://github.com/alibaba/rax",
+    "npm": "https://www.npmjs.com/package/rax"
   }
 ]
