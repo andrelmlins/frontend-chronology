@@ -277,5 +277,14 @@
     "imageUrl": "https://img.alicdn.com/tfs/TB1H2Kcb1H2gK0jSZFEXXcqMpXa-70-72.png",
     "github": "https://github.com/alibaba/rax",
     "npm": "https://www.npmjs.com/package/rax"
+  },
+  {
+    "name": "Whatsup",
+    "description": "Front-end framework based on ideas of streams and fractals.",
+    "year": 2020,
+    "website": "https://whatsup.github.io/",
+    "imageUrl": "https://hsto.org/webt/ap/cu/s9/apcus9m69i3qemivourwekvzfbu.png",
+    "github": "https://github.com/whatsup/whatsup",
+    "npm": "https://www.npmjs.com/package/whatsup"
   }
 ]
